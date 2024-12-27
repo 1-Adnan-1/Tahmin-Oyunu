@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oyun</title>
+    <!-- Css Link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Sayı Tahmin Et</h1>
+      <p class="between">(1-20 Arası)</p>
+      <button class="btn again">Tekrar Başlat</button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input class="guess" type="number" />
+        <button class="btn check">Kontrol Et!</button>
+      </section>
+      <section class="right">
+        <p class="message">Tahmin ediliyor...</p>
+        <p>Skor: <span class="score">3</span></p>
+        <p>En Yüksek Skor: <span class="highscore">0</span></p>
+      </section>
+    </main>
+    <!-- Js Bağlantı -->
+    <script src="./main.js"></script>
+  </body>
+</html>
